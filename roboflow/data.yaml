@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Loveyou', 'Thank You', 'Yes', 'stop']
+
+roboflow:
+  workspace: ayush-itncg
+  project: obj-dk89s
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ayush-itncg/obj-dk89s/dataset/4
