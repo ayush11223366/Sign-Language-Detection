@@ -31,6 +31,7 @@ sign-language-detection/
 ├── train_mode.py         # YOLOv8 model training script
 ├── detection.py           # Real-time webcam detection
 ├── requirements.txt
+├── LICENCSE
 ├── README.md
 └── .gitignore
 ```
@@ -45,8 +46,15 @@ sign-language-detection/
 pip install -r requirements.txt
 
 ```
-Select Python interpretor as yolo-gpu Environment(Press F1)
+Create and Setup Environment
+Select Python interpretor as Environment(Press F1)
 Activate Environment
+```bash
+pip install -r requirements.txt
+
+if you want to use GPU then install this pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+
 
 ### 2️⃣ Prepare Dataset
 
